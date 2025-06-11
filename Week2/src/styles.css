@@ -1,0 +1,127 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fff9f4;
+  margin: 0;
+  padding: 2rem;
+}
+
+.planner-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.todo-box {
+  background: #ffd6d6;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px #ffb0b0;
+}
+
+.todo-box h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ff9b9b;
+  border-radius: 10px;
+}
+
+.input-area button {
+  background-color: #ff9b9b;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.input-area button:disabled {
+  background: #f1cfcf;
+  cursor: not-allowed;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  background-color: #fff0f0;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 8px;
+  justify-content: space-between;
+  transition: 0.2s ease;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task span {
+  flex: 1;
+}
+
+.task.done span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.task button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.filters button {
+  background-color: #ffbcbc;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filters button:hover {
+  background-color: #ffa0a0;
+}
+
+.filters .active {
+  background-color: #ff7b7b;
+  color: white;
+}
