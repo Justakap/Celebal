@@ -31,10 +31,4 @@ A customizable and responsive Admin Dashboard built using React. It includes fea
 - Node.js (v16+ recommended)
 - npm or yarn
 
-### Installation
 
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/your-username/react-admin-dashboard.git
-cd react-admin-dashboard
